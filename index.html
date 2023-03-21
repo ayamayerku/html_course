@@ -7,19 +7,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="shortcut icon" href="img/html_logo700x700.png" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
-    <h1>Hello World!</h1>
-    <!--p*2>lorem-->
-    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet <b>consectetur</b>, adipisicing elit. Neque sit est
+    <header> 
+        <h1>Hello World!</h1>
+         <hr>
+    </header>
+
+    <nav>
+      <ul>
+        <li>
+            <a href="#One">One</a>
+        </li>
+        <li>
+            <a href="#Two">Two</a>
+        </li>
+        <li>
+            <a href="#Three">Three</a>
+        </li>
+        <li>
+            <a href="#Four">Four</a>
+        </li>
+        <li>
+            <a href="Content.html">Content</a>
+        </li>
+      </ul>
+    </nav>
+    <section id="One">
+        <h2>Section One </h2>
+
+     <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet <b>consectetur</b>, adipisicing elit. Neque sit est
         suscipit, odio ab ullam assumenda earum.
         Nostrum, itaque unde dolores quam error <i>quia</i> iusto voluptatum deserunt laborum excepturi optio.</p>
     <p>Sapiente veritatis mollitia doloribus <br>natus quidem quaerat ipsam quibusdam, eveniet voluptatibus ipsa
         repudiandae? Iste, temporibus, eum iure alias quidem repudiandae, aliquam rem commodi velit facilis at dicta
         magni. Quisquam, placeat.</p>
 
-    <ul>
+    </section>
+    <section id="Two">
+        <h2>Section Two </h2>
+         <ul>
         <li>one</li>
         <li>two</li>
         <li>three</li>
@@ -39,11 +68,83 @@
             impedit voluptatum!</dd>
 
     </dl>
+    </section >
+   <section id="Three">
+    <h2>Section Three </h2>
+    <h3>2 Best thing to Do in chaing rai</h3>
+    <ul>
+        <li>  
+                <h4>Take a tour wat Rong khun </h4>
+            <address>
+                off highway 1 (phahonyothihn road) 15Km
+                </address>
+    <figure><img src="img/white_temple.jpg" alt="wat Rong khun" width="400"  height="225" loading="lazy"></figure>
+    <figcaption>
+        The White Temple
+    </figcaption>
+        </li>
+         <li>
+            <h4>Ban Dam </h4>
+        <figure><img src="img/black_house.jpg" alt=" Ban Dam" width="400"  height="225" loading="lazy"></figure>
+    <figcaption>
+        The Ban Dam
+    </figcaption>
+        </li>  
+    </ul> 
+    </section>
 
-    <a href="https://www.google.com/" target="_blank">Google</a>
+    <section id="Four">
+        <h2>Section Four </h2>
+        <table>
+      <caption>
+        legend Course Schedule
+      </caption>
+      <thead>
+            <th></th>
+            <th>Content</th>
+            <th>Dificulty</th>
+           
+      </thead>
+      <tbody>
+        <tr>
+            <th>Tuesday</th>
+            <td>Html5</td>
+            <td rowspan="2">Easy</td>
+        </tr>
+        <tr>
+            <th>Wednesday</th>
+            <td>Css3</td>
+        
+        </tr>
+        <tr>  
+            <th>Thursday</th>
+            <td>Javascript</td>
+            <td rowspan="2">Nomal</td>
+        </tr>
+          
+        <tr>
+            <th>Friday</th>
+            <td>Bootspand</td>
+            
+        </tr>
+        <tr>
+            <th>Saturday</th>
+            <td>Final project</td>
+            <td>Hard</td>
+        </tr>
+      </tbody>
+      <tfoot>
+              <td colspan="3">This is learn content of HTML5 course in 5 day</td>
+      </tfoot>
+        </table>
+    </section>
+    <footer>
+     <a href="https://www.google.com/" target="_blank">Google</a>
     <a href="mailto:651463038@crru.ac.th">Mail</a>
     <a href="Tel:0123456789">tel</a>
     <a href="/about.html">Go to about</a>
+    </footer>
+   
 
 
 </html>
